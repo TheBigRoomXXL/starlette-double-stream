@@ -1,6 +1,6 @@
 from starlette.applications import Starlette
 from starlette.requests import Request
-from starlette.responses import StreamingResponse
+from starlette.responses import Response, StreamingResponse  # noqa: F401
 from starlette.routing import Route
 
 
